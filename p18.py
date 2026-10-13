@@ -1,0 +1,6 @@
+numbers=[1,2,3,4,5,6,76,8,9]
+result=[]
+for n in numbers:
+    if n%2!=0:
+        result.append(n)
+print("list after removing even numbers:",result)
